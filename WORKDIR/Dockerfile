@@ -1,6 +1,6 @@
 FROM almalinux:9
 RUN mkdir /manohar
-WORKDIR /manohar
+RUN cd /manohar
 RUN pwd
 RUN echo "hello Manohar" > hello.txt
 CMD ["sleep","100"]
