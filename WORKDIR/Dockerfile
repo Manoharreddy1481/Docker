@@ -3,3 +3,4 @@ RUN mkdir /manohar
 WORKDIR /manohar
 RUN pwd
 RUN echo "hello Manohar" > hello.txt
+CMD ["sleep","100"]
