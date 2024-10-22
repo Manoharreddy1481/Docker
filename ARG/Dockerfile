@@ -1,5 +1,5 @@
 ARG version
-FROM almalinux:$(version)
+FROM almalinux:${version}
 ENV author="Manohar" \
     course="AWS Devops"
 RUN echo author =$author, course=$course
